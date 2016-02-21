@@ -1,0 +1,122 @@
+/*-- global --*/
+.yh {font-family:'微软雅黑';}
+body {padding-top: 50px;}
+
+/*-- top --*/
+.navbar-right .tel{ position: relative;display: block;padding: 10px 15px;line-height: 30px;font-style: oblique;font-size: 16px; color: #e0e0e7;}
+
+.navbar>.container .navbar-brand {color: #e0e0e7;} 
+.navbar-default {background:#3c4a69; border:0;}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {color: #fff;background:#1485C4;}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover { color: #e0e0e7;}
+.navbar-default .navbar-nav>li>a {color: #e0e0e7; -webkit-transition:.3s; transition:.3s;}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover { color: #fff;background-color: #1485C4;}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {color: #e0e0e7;background:#1485C4;}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {    border-color: #fff;}
+
+/*-- topbox2 --*/
+.topbox2 {background:#1485C4;}
+.jumbotron p {opacity:0.7;}
+.jumbotron {background: transparent;color: #fff; }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover { background-color: hsl(221, 26%, 28%);}
+.navbar-default .navbar-toggle .icon-bar {background-color: #fff;}
+
+/*-- container-box --*/
+.container-box h2{ border-bottom: 1px solid #ddd;padding-bottom: 10px;margin-bottom: 15px;}
+.container-box h2 .glyphicon {vertical-align:top;margin-right: 5px;}
+
+.container-box .thumbnail h3{ border: 0;border-radius: 0;background-color: #70aad6;color: #fff;text-align: center;margin: 0;line-height: 3;padding-top: 20px;padding-bottom: 20px;}
+
+.container-box .list-unstyled {}
+
+
+.container-box-2 .panel-body p:last-child{margin-bottom:0;}
+
+/*-- panel --*/
+.panel-primary2 {    border-color: #f60;}
+.panel-primary2 >.panel-heading {background:#f60;color: #fff;}
+
+.panel-primary3 {    border-color: #008B8B;}
+.panel-primary3 >.panel-heading {background:#008B8B;color: #fff;}
+
+.panel-primary4 {    border-color: #FF7F50;}
+.panel-primary4 >.panel-heading {background:#FF7F50;color: #fff;}
+
+.panel-primary5 {    border-color: #A52A2A;}
+.panel-primary5 >.panel-heading {background:#A52A2A;color: #fff;}
+
+.panel-primary6 {    border-color: #9370DB;}
+.panel-primary6 >.panel-heading {background:#9370DB;color: #fff;}
+
+.panel-primary7 {    border-color: #CD853F;}
+.panel-primary7 >.panel-heading {background:#CD853F;color: #fff;}
+
+/*-- artbox --*/
+.artbox .item{margin-bottom: 20px; border-bottom:1px solid #ccc;padding-bottom: 10px;  }
+.artbox .item:last-child {border-bottom:0;}
+.artbox a{color: #666; text-decoration:none;}
+
+.rightbox {padding: 10px;background:#eee;border-radius:5px;}
+
+.righttime {margin-top: 15px;  }
+.righttime h4 {border-left: 2px solid #1485C4; padding-left: 10px; background:#eee;line-height: 30px;}
+
+/*-- container-footer --*/
+.container-footer {text-align: center;padding: 10px;}
+.footeroutdoor {background-color: #ccc;}
+
+.container-box-1,
+.container-box-2,
+.container-box-3
+{    padding-top: 35px;}
+
+.container-box-1 {    margin-top: -20px;}
+.container-box-2 { margin-top: -35px;margin-bottom: -35px;}
+
+/*-- container-news --*/
+.container-news {margin-top: 15px;}
+
+.container-news nav{text-align: center;}
+
+/*-- container-detail --*/
+.container-detail {margin-top: 15px;}
+
+.container-detail .blog-post-title {text-align: center;}
+
+.artbox-edit .time{border-bottom:1px solid #ddd;padding-bottom: 5px;margin-bottom:10px;}
+.artbox-edit .item {border-bottom:0;  }
+.back { text-align:left;padding-top: 10px;padding-bottom: 20px;}
+.back a {width: 100px;}
+
+/*-- topbox2-aboutus --*/
+.topbox2-aboutus { padding-bottom: 60px;box-sizing: border-box;}
+
+
+@media (min-width: 767px){
+  .container-box-1 .panel-body {min-height: 200px;}
+}
+
+
+@media (min-width: 992px){
+  .container-box-1 .panel-body {min-height: 145px;}
+  .container-box-2 .panel-body {min-height: 245px;}
+
+}
+
+
+@media (max-width: 767px){
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+      color: #eee;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #eee;
+  }
+
+
+}
